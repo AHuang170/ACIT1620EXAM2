@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Final Test</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    
+    <body>
+        
+        
+        <div id='navigation'>
+            <button id="nav_post" class="nav_button">Post Card</button>
+            <button id="nav_gall" class="nav_button">Gallery</button>
+            
+        </div>
+        
+        <div id='postcard'>
+            
+            <div id="card" class='item'>
+                
+                <div id="pc_to_single_txt" class="sigle_input_cont">
+                    <input type="text" id="pc_single_to_txt" placeholder="card to" class="single_pc_ctrl_txt"/>
+                </div>
+                
+                <div id="pc_from_single_txt" class="sigle_input_cont">
+                    <input type="text" id="pc_single_from_txt" placeholder="card from" class="single_pc_ctrl_txt"/>
+                </div>
+                
+                <div id="pc_body_single_txt" class="sigle_input_cont">
+                    <input type="text" id="pc_single_body_txt" placeholder="card body" class="single_pc_ctrl_txt"/>
+                </div>
+                
+                <div id="pc_src_single_txt" class="sigle_input_cont">
+                    <input type="text" id="pc_single_src_txt" placeholder="card bg url" class="single_pc_ctrl_txt"/>
+                </div>
+                
+                <div id="pc_to">To</div>
+                <div id="pc_from">From</div>
+                <div id="pc_body"></div >
+            </div>
+            <div id='card_controls'>
+                <input type="text" id="pc_url" placeholder="card bg url" class="pc_ctrl_txt"/>
+                <input type="text" id="pc_to_txt" placeholder="card to" class="pc_ctrl_txt"/>
+                <input type="text" id="pc_body_txt" placeholder="card body" class="pc_ctrl_txt"/>
+                <input type="text" id="pc_from_txt" placeholder="card from" class="pc_ctrl_txt"/>
+            </div>
+            <button id='add'>Add to Gallery</button>
+        </div>
+        
+        <div id="gallery">
+            <div id="gallery_controls">
+                <button id="gal_saLo" class="gallery_button">Save Local</button>
+                <button id="gal_loLo" class="gallery_button">Load Local</button>
+                <button id="gal_saOn" class="gallery_button">Save Online</button>
+                <button id="gal_loOn" class="gallery_button">Load Online</button>
+            </div>
+        </div>
+        
+        <script src="myjs.js"></script>
+    </body>
+</html>
